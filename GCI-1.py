@@ -9,5 +9,4 @@ for _ in range(10):
 name = input("What's your name? ")
 name = list(name)
 revName = name[::-1]
-print("Hello " + "".join(name) + ", pleased to meet you! Did you know that your name backwards is " + "".join(revName) + "?")
 
